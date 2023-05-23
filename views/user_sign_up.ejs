@@ -1,0 +1,22 @@
+<!-- Form for signing up new user on 'socialVerse' -->
+<h1>Sign up</h1>
+
+<form action="/users/create" method="POST">  
+    <label for="name"><p>Name</p></label>
+    <br />
+    <input type="text" name="name" placeholder="Enter your Name" required>
+
+    <label for="email"><p>Email</p></label>
+    <br />
+    <input type="email" name="email" placeholder="Enter your Email" required>
+
+    <label for="password"><p>Password</p></label>
+    <br />
+    <input type="password" name="password" placeholder="Enter your Password" required>
+
+    <label for="confirm_password"><p>Confirm password</p></label>
+    <br />
+    <input type="password" name="confirm_password" placeholder="Confirm Password" required>
+    <br>
+    <input type="submit" value="Sign Up">
+</form>
